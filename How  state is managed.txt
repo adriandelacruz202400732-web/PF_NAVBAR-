@@ -1,0 +1,9 @@
+How  state is managed?
+
+State was managed by storing important data (like user input or app changes) in one place and updating it when something happened. For example, in React, state can be stored in a component and updated using hooks like useState. When the state changes, the screen updates automatically to show the new information.
+
+Where asynchronous behavior was used?
+Asynchronous behavior was used when tasks took time, like getting data from an API. Instead of stopping the whole program, the app uses things like async/await to wait for the result while still running smoothly.
+
+What event bubbling is?
+Event bubbling is when an event (like a click) starts on one element and then moves up to its parent elements, so parents can also respond to that same event.
